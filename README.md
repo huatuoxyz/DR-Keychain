@@ -11,6 +11,13 @@ Add or Update
 					service:@"sample"
 					group:@"79UJGB84V7.share"];
 
+Get Value
+
+	NSString *value = [DRKeychain getValueWithAccount:@"dongri.jin@drecom.co.jp" 
+					service:@"sample" 
+					group:@"79UJGB84V7.share"];
+	NSLog(@"%@", value);
+
 Delete
 
 	[DRKeychain deleteValueWithAccount:@"dongri.jin@drecom.co.jp"
