@@ -44,4 +44,4 @@ License
 -------
 MIT
 
-Copyright (c) 2011 Dongri Jin
+Copyright (c) 2012 Dongri Jin
