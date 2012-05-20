@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC01318915691A06006AF5B3 /* DRKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FC01318815691A06006AF5B3 /* DRKeychain.m */; };
+		FC35DB0D15687E3500F60785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC35DB0C15687E3500F60785 /* UIKit.framework */; };
+		FC35DB0F15687E3500F60785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC35DB0E15687E3500F60785 /* Foundation.framework */; };
+		FC35DB1115687E3500F60785 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC35DB1015687E3500F60785 /* CoreGraphics.framework */; };
+		FC35DB1715687E3500F60785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC35DB1515687E3500F60785 /* InfoPlist.strings */; };
+		FC35DB1915687E3500F60785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC35DB1815687E3500F60785 /* main.m */; };
+		FC35DB1D15687E3500F60785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC35DB1C15687E3500F60785 /* AppDelegate.m */; };
+		FC35DB2615687F1E00F60785 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC35DB2415687F1E00F60785 /* ViewController.m */; };
+		FC35DB2715687F1E00F60785 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC35DB2515687F1E00F60785 /* ViewController.xib */; };
+		FC35DB29156882C300F60785 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC35DB28156882C300F60785 /* Security.framework */; };
+		FC492B101568DCE00056BC20 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC492B0F1568DCE00056BC20 /* Entitlements.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC01318715691A06006AF5B3 /* DRKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRKeychain.h; sourceTree = "<group>"; };
+		FC01318815691A06006AF5B3 /* DRKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRKeychain.m; sourceTree = "<group>"; };
+		FC35DB0815687E3500F60785 /* DRKeychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRKeychain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC35DB0C15687E3500F60785 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC35DB0E15687E3500F60785 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC35DB1015687E3500F60785 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC35DB1415687E3500F60785 /* DRKeychain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DRKeychain-Info.plist"; sourceTree = "<group>"; };
+		FC35DB1615687E3500F60785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC35DB1815687E3500F60785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC35DB1A15687E3500F60785 /* DRKeychain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRKeychain-Prefix.pch"; sourceTree = "<group>"; };
+		FC35DB1B15687E3500F60785 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC35DB1C15687E3500F60785 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC35DB2315687F1E00F60785 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC35DB2415687F1E00F60785 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC35DB2515687F1E00F60785 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		FC35DB28156882C300F60785 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FC492B0F1568DCE00056BC20 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC35DB0515687E3500F60785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC35DB29156882C300F60785 /* Security.framework in Frameworks */,
+				FC35DB0D15687E3500F60785 /* UIKit.framework in Frameworks */,
+				FC35DB0F15687E3500F60785 /* Foundation.framework in Frameworks */,
+				FC35DB1115687E3500F60785 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC01318615691A06006AF5B3 /* DRKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				FC01318715691A06006AF5B3 /* DRKeychain.h */,
+				FC01318815691A06006AF5B3 /* DRKeychain.m */,
+			);
+			path = DRKeychain;
+			sourceTree = "<group>";
+		};
+		FC35DAFD15687E3500F60785 = {
+			isa = PBXGroup;
+			children = (
+				FC35DB1215687E3500F60785 /* DRKeychain */,
+				FC35DB0B15687E3500F60785 /* Frameworks */,
+				FC35DB0915687E3500F60785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC35DB0915687E3500F60785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC35DB0815687E3500F60785 /* DRKeychain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC35DB0B15687E3500F60785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC35DB28156882C300F60785 /* Security.framework */,
+				FC35DB0C15687E3500F60785 /* UIKit.framework */,
+				FC35DB0E15687E3500F60785 /* Foundation.framework */,
+				FC35DB1015687E3500F60785 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC35DB1215687E3500F60785 /* DRKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				FC01318615691A06006AF5B3 /* DRKeychain */,
+				FC35DB1B15687E3500F60785 /* AppDelegate.h */,
+				FC35DB1C15687E3500F60785 /* AppDelegate.m */,
+				FC35DB2315687F1E00F60785 /* ViewController.h */,
+				FC35DB2415687F1E00F60785 /* ViewController.m */,
+				FC35DB2515687F1E00F60785 /* ViewController.xib */,
+				FC35DB1315687E3500F60785 /* Supporting Files */,
+			);
+			path = DRKeychain;
+			sourceTree = "<group>";
+		};
+		FC35DB1315687E3500F60785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC35DB1415687E3500F60785 /* DRKeychain-Info.plist */,
+				FC35DB1515687E3500F60785 /* InfoPlist.strings */,
+				FC35DB1815687E3500F60785 /* main.m */,
+				FC35DB1A15687E3500F60785 /* DRKeychain-Prefix.pch */,
+				FC492B0F1568DCE00056BC20 /* Entitlements.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC35DB0715687E3500F60785 /* DRKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC35DB2015687E3500F60785 /* Build configuration list for PBXNativeTarget "DRKeychain" */;
+			buildPhases = (
+				FC35DB0415687E3500F60785 /* Sources */,
+				FC35DB0515687E3500F60785 /* Frameworks */,
+				FC35DB0615687E3500F60785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DRKeychain;
+			productName = DRKeychain;
+			productReference = FC35DB0815687E3500F60785 /* DRKeychain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC35DAFF15687E3500F60785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FC35DB0215687E3500F60785 /* Build configuration list for PBXProject "DRKeychain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC35DAFD15687E3500F60785;
+			productRefGroup = FC35DB0915687E3500F60785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC35DB0715687E3500F60785 /* DRKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC35DB0615687E3500F60785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC35DB1715687E3500F60785 /* InfoPlist.strings in Resources */,
+				FC35DB2715687F1E00F60785 /* ViewController.xib in Resources */,
+				FC492B101568DCE00056BC20 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC35DB0415687E3500F60785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC35DB1915687E3500F60785 /* main.m in Sources */,
+				FC35DB1D15687E3500F60785 /* AppDelegate.m in Sources */,
+				FC35DB2615687F1E00F60785 /* ViewController.m in Sources */,
+				FC01318915691A06006AF5B3 /* DRKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC35DB1515687E3500F60785 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC35DB1615687E3500F60785 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC35DB1E15687E3500F60785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dongri Jin (JNRYL639S2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dongri Jin (JNRYL639S2)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PROVISIONING_PROFILE = "7CDD7DDD-62A7-4171-B8BC-2EDAB20304BA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CDD7DDD-62A7-4171-B8BC-2EDAB20304BA";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC35DB1F15687E3500F60785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dongri Jin (JNRYL639S2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dongri Jin (JNRYL639S2)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7CDD7DDD-62A7-4171-B8BC-2EDAB20304BA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CDD7DDD-62A7-4171-B8BC-2EDAB20304BA";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC35DB2115687E3500F60785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DRKeychain/Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dongri Jin (JNRYL639S2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dongri Jin (JNRYL639S2)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DRKeychain/DRKeychain-Prefix.pch";
+				INFOPLIST_FILE = "DRKeychain/DRKeychain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7CDD7DDD-62A7-4171-B8BC-2EDAB20304BA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CDD7DDD-62A7-4171-B8BC-2EDAB20304BA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC35DB2215687E3500F60785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DRKeychain/Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dongri Jin (JNRYL639S2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dongri Jin (JNRYL639S2)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DRKeychain/DRKeychain-Prefix.pch";
+				INFOPLIST_FILE = "DRKeychain/DRKeychain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7CDD7DDD-62A7-4171-B8BC-2EDAB20304BA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CDD7DDD-62A7-4171-B8BC-2EDAB20304BA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC35DB0215687E3500F60785 /* Build configuration list for PBXProject "DRKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC35DB1E15687E3500F60785 /* Debug */,
+				FC35DB1F15687E3500F60785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC35DB2015687E3500F60785 /* Build configuration list for PBXNativeTarget "DRKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC35DB2115687E3500F60785 /* Debug */,
+				FC35DB2215687E3500F60785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC35DAFF15687E3500F60785 /* Project object */;
+}
