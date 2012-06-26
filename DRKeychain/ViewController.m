@@ -82,6 +82,7 @@
         NSString *str = [DRKeychain getValueWithAccount:self.account.text service:self.service.text];
         [self.password setText:str];
     }
+    [self dumpItems];
 }
 
 - (IBAction)dumpItems {
