@@ -32,7 +32,7 @@ Dump items
 
 Image
 
-![Example](http://s2.i1.picplzthumbs.com/upload/img/4e/88/eb/4e88eb76c3269e6d68d533786648e56e78f6ab3d_400r.jpg "Optional title")
+![Example](http://farm9.staticflickr.com/8159/7582487408_87af5b403f_z_d.jpg "Optional title")
 
 Installation
 -----------
